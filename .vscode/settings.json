@@ -1,9 +1,0 @@
-{
-    "chat.tools.terminal.autoApprove": {
-        "/^php -l \\.\\\\Store\\\\api\\\\payment\\.php$/": {
-            "approve": true,
-            "matchCommandLine": true
-        }
-    },
-    "python-envs.defaultEnvManager": "ms-python.python:system"
-}
