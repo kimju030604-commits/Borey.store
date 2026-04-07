@@ -1,8 +1,0 @@
-Options -Indexes
-RewriteEngine On
-
-# Rewrite /invoice.php → served from frontend/invoice.php
-RewriteRule ^invoice\.php$ frontend/invoice.php [QSA,L]
-
-# Rewrite /admin/* → served from frontend/admin/*  (URL stays /admin/*)
-RewriteRule ^admin/(.*)$ frontend/admin/$1 [L]

@@ -1,9 +1,0 @@
-# Security: Prevent direct access to invoice files
-# All downloads must go through api/invoice.php?action=download_pdf
-<FilesMatch "\.(pdf|json)$">
-    Order Deny,Allow
-    Deny from all
-</FilesMatch>
-
-# Prevent directory listing
-Options -Indexes

@@ -1,5 +1,0 @@
-# Block all direct web access to configuration files
-<FilesMatch ".*">
-    Order Deny,Allow
-    Deny from all
-</FilesMatch>

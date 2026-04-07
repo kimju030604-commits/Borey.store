@@ -1,7 +1,0 @@
-# Block direct web access to PHP library files
-<FilesMatch "\.php$">
-    Order Deny,Allow
-    Deny from all
-</FilesMatch>
-# Allow viewing .htm documentation if needed (change to Deny if not)
-Options -Indexes

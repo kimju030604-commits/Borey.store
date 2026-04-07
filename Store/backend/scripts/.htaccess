@@ -1,5 +1,0 @@
-# Block all direct web access to maintenance scripts
-<FilesMatch ".*">
-    Order Deny,Allow
-    Deny from all
-</FilesMatch>
